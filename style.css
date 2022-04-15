@@ -85,7 +85,6 @@ header{
 }
 /* Brand icon section */
 #brand {
-    width: 1110px;
     border-top:1px solid;
     border-bottom: 1px solid;
     border-image:linear-gradient(90deg, rgba(192, 204, 218, 0.1) 0%, rgba(192, 204, 218, 0.6) 50.38%, rgba(192, 204, 218, 0.1) 100%);
@@ -154,26 +153,18 @@ header{
 .collection-rating{
     display: flex;
 }
-.fa-star {
+.fa-star , .fa-star-half-stroke {
     color: orange;
     width: 16px;
     height: 16px;
 }
 .fa-star-half-stroke{
-    color: orange;
-    width: 16px;
-    height: 16px;
     padding-right: 10px;
 }
 .collection-rating span {
     font-size: 14px;
-    font-weight: 700px;
     font-family:'Roboto', sans-serif;
     color: rgba(94, 99, 102, 1);
-}
-.collection-info-text {
-    width: 196px;
-    height: 61px;
 }
 .collection-info-text p {
     font-size: 14px;
@@ -235,7 +226,6 @@ header{
 }
 .footer-text {
     font-family: 'Manrope', sans-serif;
-    font-weight: 700;
     line-height: 24px;
     color: rgba(217, 219, 225, 1);
     padding-bottom: 17px;
