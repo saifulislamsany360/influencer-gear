@@ -39,9 +39,9 @@ p {
 .icon {
      margin-left: 8px
 }
-/* header css */
-header{
-    margin-top: 100px;
+/* header */
+header {
+    margin-top: 50px;
 }
 /* Influencer css */
 #influ{
@@ -49,7 +49,7 @@ header{
     height: 475px;
     margin-bottom: 69px;
 }
-.influe_wrapper {
+.influe-wrapper {
     display: flex;
 }
 .influ-ditails{
@@ -239,3 +239,5 @@ header{
     background: #22213C;
     border-radius: 50%;
 }
+
+/* Moabile responsive  */
