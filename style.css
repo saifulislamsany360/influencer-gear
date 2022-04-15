@@ -13,7 +13,6 @@ font-family: 'Manrope', sans-serif;
 font-family: 'Open Sans', sans-serif;
 font-family: 'Roboto', sans-serif; */
 color: #3A3A3A;
-margin-bottom: 100px;
 background:rgba(255, 255, 255, 1);
 }
 main{
@@ -194,7 +193,6 @@ header{
     width: 1110px;
     height: 270px;
     margin-bottom: 100px;
-    
 }
 .featured-wraper {
     display: flex;
@@ -213,48 +211,41 @@ header{
 }
 .featured-tittle {
     font-size: 38px;
-    font-weight: 700px;
     color: rgba(10, 8, 38, 1);
     margin-bottom: 16px
 }
 .fratured-text {
     line-height: 28px;
-    font-weight: 700px;
     color: rgba(108, 108, 108, 1);
     margin-bottom: 16px;
 }
 /* Footer section */
 #footer {
-    width: 1440px;
+    width: 100%;
     height: 239px;
     background: rgba(10, 8, 38, 1);
 }
 .footer-wraper {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    /* width: 262px;
-    height: 139px; */
-
+    text-align: center;
+    padding: 50px 0;
 }
 .footer-tittle {
     font-size: 24px;
     color: rgba(255, 255, 255, 1);
-    font-weight: 700;
 }
 .footer-text {
     font-family: 'Manrope', sans-serif;
     font-weight: 700;
     line-height: 24px;
     color: rgba(217, 219, 225, 1);
+    padding-bottom: 17px;
 }
-.footer-icon {
-    display: flex;
-    flex-direction: row;
-    grid-column-gap: 16px;
-    align-items: flex-start;
-}
-.footer-icon i {
-    width: 32px;
-    height: 32px;
+.i {
+    width: 17.7px;
+    height: 17.7px;
+    color: #fff;
+    padding: 7.47px;
+    margin-right: 16px;
+    background: #22213C;
+    border-radius: 50%;
 }
